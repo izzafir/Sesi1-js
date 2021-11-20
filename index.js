@@ -1,4 +1,7 @@
-const nama = "Andi Fadgham";
-let hobi = "Main Basket";
-hobi = "Main valo";
-console.log(`${nama} ${hobi}`);
+const nama = "Andi Fadgham Izza Rizky";
+
+function getNama() {
+    return nama;
+}
+
+console.log(getNama());
